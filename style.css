@@ -1,0 +1,108 @@
+body{
+      background-color: #Ffffff;
+      background-size:cover;
+      background-attachment: fixed;
+}
+main {
+  display: flex;
+  width: 890px ; /*set lebar body website*/
+  margin: 3px auto; /*set posisi body (auto; left; right; center)*/
+}
+}
+.navigasi,
+.konten,
+.sidebar,
+.footer {
+  margin-bottom: 5px;
+  padding: 15px 0;
+}
+.navbar {
+  size: cover;
+  width: 100%;
+  height: auto;
+  background: #8B0000;
+  text-align: right;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.navbar li {
+  float: right;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #8B0000;
+}
+
+.navbar .active {
+  background-color: #800000;
+}
+.konten {
+  width: 100%;
+  background: #FFFFFF;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 20px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(200, 200, 200);
+  text-align: center;
+  padding: 35px 0;
+  font-size: 30px;
+}
+.contactUs {
+  width: 100%;
+  margin: 0px;
+  padding: 90px;
+  background: #800000;
+}
+.footer {
+  width: 100%;
+  margin: 0px;
+  padding: 19px;
+  background: #8B0000;
+  text-align: center;
+}
+#wrapper{
+    padding:0px;
+    margin: 5px auto;
+}
+ 
+/*teknik 1 : fix height*/
+.txt{
+    height:auto; /*atur angkanya sampe dirasa udah pas*/
+    background: #Ffffff; 
+    padding:10px; 
+    margin: 5px auto;
+}
+.column-span{
+    height:80px; /*atur angkanya sampe dirasa udah pas*/
+    background: #Ffffff; 
+    padding:10px; 
+    margin: 5px auto;
+}
+.column-span-index{
+    height:10px; /*atur angkanya sampe dirasa udah pas*/
+    background: #Ffffff; 
+    padding:10px; 
+    margin: 5px auto;
+}
